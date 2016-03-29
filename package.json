@@ -16,9 +16,9 @@
     "watchify": "latest"
   },
   "scripts": {
-    "watch-js": "watchify -t [ babelify --presets [ react ] ] weather.jsx -o bundle.js",
+    "watch-js": "watchify -t [ babelify --presets [ react ] ] weatherApp.jsx -o bundle.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-js": "browserify -t [ babelify --presets [ react ] ] weather.jsx -o bundle.js"
+    "build-js": "browserify -t [ babelify --presets [ react ] ] weatherApp.jsx -o bundle.js"
   },
   "author": "paula",
   "license": "ISC"
